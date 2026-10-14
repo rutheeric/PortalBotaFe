@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Gold / Yellow Gradient for the TLC Checkmark -->
+    <linearGradient id="goldCheckGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5a0" />
+      <stop offset="35%" stop-color="#fed637" />
+      <stop offset="70%" stop-color="#f5be18" />
+      <stop offset="100%" stop-color="#e2a106" />
+    </linearGradient>
+
+    <!-- Star symbol definition -->
+    <g id="goldStar">
+      <polygon points="0,-12 3.7,-3.7 12,-3.7 5.5,1.5 8,9.5 0,4.5 -8,9.5 -5.5,1.5 -12,-3.7 -3.7,-3.7" fill="#fed637" />
+    </g>
+  </defs>
+
+  <!-- Circular Base: Deep Rich Crimson Red -->
+  <circle cx="250" cy="250" r="240" fill="#c40d1e" />
+
+  <!-- Outer Double Gold Ring -->
+  <circle cx="250" cy="250" r="242" fill="none" stroke="#f6c928" stroke-width="3" />
+  <circle cx="250" cy="250" r="234" fill="none" stroke="#f6c928" stroke-width="4.5" />
+
+  <!-- 12 Gold Stars in circle (Marian / Apostolic crown) -->
+  <!-- 12 o'clock -->
+  <use href="#goldStar" x="250" y="27" />
+  <!-- 1 o'clock -->
+  <use href="#goldStar" x="357" y="56" />
+  <!-- 2 o'clock -->
+  <use href="#goldStar" x="420" y="132" />
+  <!-- 3 o'clock -->
+  <use href="#goldStar" x="424" y="210" />
+  <!-- 4 o'clock -->
+  <use href="#goldStar" x="410" y="333" />
+  <!-- 5 o'clock -->
+  <use href="#goldStar" x="375" y="415" />
+  <!-- 6 o'clock -->
+  <use href="#goldStar" x="250" y="475" />
+  <!-- 7 o'clock -->
+  <use href="#goldStar" x="122" y="388" />
+  <!-- 8 o'clock -->
+  <use href="#goldStar" x="53" y="285" />
+  <!-- 9 o'clock -->
+  <use href="#goldStar" x="46" y="222" />
+  <!-- 10 o'clock -->
+  <use href="#goldStar" x="93" y="115" />
+  <!-- 11 o'clock -->
+  <use href="#goldStar" x="160" y="86" />
+
+  <!-- Holy Spirit Dove (Red body with fine gold/white outline) -->
+  <!-- Dove Body Silhouette -->
+  <path d="M 100 270 
+           C 85 273 73 277 71 276 
+           C 76 270 94 257 98 253
+           C 96 242 108 232 125 233
+           C 140 234 153 245 160 258
+           C 180 275 205 320 220 340
+           C 255 365 290 410 260 445
+           C 250 430 242 410 240 395
+           C 230 435 255 450 240 450
+           C 215 440 215 390 205 375
+           C 170 355 130 330 110 300
+           C 100 285 98 275 100 270 Z" 
+        fill="#c40d1e" />
+
+  <!-- Gold/White Dove Contours -->
+  <path d="M 72 276 
+           C 95 260 115 232 135 233 
+           C 155 234 165 250 178 275
+           C 205 330 240 370 270 410
+           C 275 425 265 445 253 446
+           C 245 420 238 390 225 365
+           C 200 340 150 310 115 285" 
+        fill="none" stroke="#f6c928" stroke-width="4.5" stroke-linecap="round" />
+
+  <!-- Dove Tail Feathers (White/Gold curves) -->
+  <path d="M 240 380 C 255 405 270 430 255 448 M 235 390 C 245 415 250 440 242 450 M 225 385 C 230 405 232 430 225 440" 
+        fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Dove Eye and Beak -->
+  <polygon points="71,276 96,257 93,272" fill="#fff5a0" stroke="#f6c928" stroke-width="1.5" />
+  <circle cx="108" cy="251" r="5" fill="#ffffff" />
+  <circle cx="108" cy="251" r="2.5" fill="#c40d1e" />
+
+  <!-- Wing Feather Whispers (White Curves ascending) -->
+  <path d="M 195 315 C 230 300 270 270 310 230" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  <path d="M 215 300 C 250 280 290 245 320 205" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  <path d="M 235 280 C 270 255 305 210 325 170" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  <path d="M 250 255 C 280 220 310 170 325 130" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+
+  <!-- The Iconic Gold TLC Checkmark / V-Wings -->
+  <!-- Left wing tip (75, 165), Vertex (190, 295), Right extended tip (420, 95) -->
+  <polygon points="73,165 190,295 420,95 240,240 180,240 110,195" fill="url(#goldCheckGrad)" stroke="#f6c928" stroke-width="2" />
+  <!-- Under shadow on checkmark -->
+  <polyline points="73,165 190,295 420,95" fill="none" stroke="#d48a04" stroke-width="3.5" stroke-linecap="round" />
+
+  <!-- "TLC" Bold Red Letters on Checkmark -->
+  <text x="160" y="245" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#c40d1e" text-anchor="middle">T</text>
+  <text x="190" y="272" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#c40d1e" text-anchor="middle">L</text>
+  <text x="222" y="245" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="34" fill="#c40d1e" text-anchor="middle">C</text>
+
+  <!-- Script "Bota Fé" in White running dynamically above the wing -->
+  <g transform="translate(200, 215) rotate(-38)">
+    <text x="0" y="0" font-family="'Brush Script MT', 'Dancing Script', cursive, sans-serif" font-size="46" font-style="italic" font-weight="bold" fill="#ffffff" filter="drop-shadow(0px 2px 4px rgba(0,0,0,0.4))">
+      Bota Fé
+    </text>
+  </g>
+</svg>

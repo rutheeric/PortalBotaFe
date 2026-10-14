@@ -1,0 +1,6 @@
+{
+  "name": "Portal de Links & Documentos",
+  "description": "Portal customizável estilo Linktree para grupos, pastorais e comunidades com links para Google Drive, formulários, redes sociais e suporte nativo ao GitHub Pages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
